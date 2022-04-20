@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    background-color: #555;
+    justify-content: center;
+    align-items: center;
+    /* place-content: center; */
+    min-height: 80vh;
+}
+
+.modal-container {
+    display: flex;
+    background-color: #fff;
+    max-width: 60rem;
+    min-height: 40vh;
+    flex-direction: column;
+    padding: 1em 1.4em;
+    border-radius: 8px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 20px; */
+    padding: 0 .5em;
+    border-bottom: 1px solid #777;
+    padding-bottom: .5rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: flex-start;
+    padding-top: .5rem;
+}
+
+.text {
+    flex-grow: 1;
+    overflow: auto;
+    padding: 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: .5rem;
+    border-top: 1px solid #777;
+}
+
+.btn {
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+    padding: .5em 1em;
+    font-size: inherit;
+    border-radius: .3em;
+    color:#fff;
+    cursor: pointer;
+}
+
+.btn.btn-primary {
+    background-color: #1CA;
+    border-color: #0A8;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+    background-color: #0A8;
+}
+
+.btn.btn-danger {
+    background-color: #C33;
+    border-color: #A11;
+}
+
+.btn.btn-danger:hover,
+.btn.btn-danger:focus {
+    background-color: #A11;
+}
